@@ -1,0 +1,21 @@
+{
+    "currency": "USD",
+    "financial_scenarios": {
+        "one": {
+            "false_positive_cost_usd": 240.0,
+            "lgd_rate": 0.4
+        },
+        "two": {
+            "false_positive_cost_usd": 50000.0,
+            "lgd_rate": 0.24
+        }
+    },
+    "selected_thresholds": {
+        "one": 0.05,
+        "two": 0.74
+    },
+    "threshold_selection_method": "Minimum estimated financial cost",
+    "loss_calculation": "Missed default exposure multiplied by LGD",
+    "test_set_used_for_threshold_selection": false,
+    "actual_recoveries_available": false
+}

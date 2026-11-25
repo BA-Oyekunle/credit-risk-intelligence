@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+  Fully Paid       0.96      0.10      0.17     63671
+ Charged Off       0.21      0.99      0.35     15535
+
+    accuracy                           0.27     79206
+   macro avg       0.59      0.54      0.26     79206
+weighted avg       0.82      0.27      0.21     79206

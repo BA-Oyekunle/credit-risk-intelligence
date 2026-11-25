@@ -1,0 +1,47 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Raw data
+data/raw/*
+
+# Processed data
+data/processed/*
+
+# External data
+data/external/*
+
+# Keep empty directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
+# Individual borrower-level explanations
+reports/explainability/individual_explanations/
+# Individual borrower-level explanations and diagnostics
+reports/**/individual_explanations/

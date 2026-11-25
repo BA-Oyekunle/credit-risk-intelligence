@@ -1,0 +1,28 @@
+{
+    "random_forest": {
+        "best_cv_pr_auc": 0.37095455223664153,
+        "best_parameters": {
+            "classifier__class_weight": "balanced_subsample",
+            "classifier__max_depth": 25,
+            "classifier__max_features": "sqrt",
+            "classifier__min_samples_leaf": 16,
+            "classifier__min_samples_split": 13,
+            "classifier__n_estimators": 207
+        },
+        "threshold": 0.48963889630902874
+    },
+    "xgboost": {
+        "best_cv_pr_auc": 0.37772074264118666,
+        "best_parameters": {
+            "classifier__colsample_bytree": 0.9509791423577122,
+            "classifier__learning_rate": 0.14245535694580033,
+            "classifier__max_depth": 3,
+            "classifier__min_child_weight": 7,
+            "classifier__n_estimators": 473,
+            "classifier__reg_lambda": 5.2444276862666666,
+            "classifier__scale_pos_weight": 5.1233947021146475,
+            "classifier__subsample": 0.8471508762459388
+        },
+        "threshold": 0.5895107984542847
+    }
+}

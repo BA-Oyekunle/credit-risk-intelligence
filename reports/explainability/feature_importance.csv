@@ -1,0 +1,89 @@
+rank,feature,mean_absolute_shap
+1,categorical__application_type_JOINT,0.54400307
+2,categorical__purpose_small_business,0.48234594
+3,numeric__int_rate,0.35336614
+4,categorical__purpose_wedding,0.28409007
+5,numeric__annual_inc,0.2588295
+6,numeric__revol_util,0.22629726
+7,categorical__sub_grade_F5,0.21178548
+8,categorical__purpose_renewable_energy,0.17354813
+9,numeric__pub_rec,0.14567979
+10,categorical__sub_grade_A1,0.14460127
+11,numeric__open_acc,0.13155368
+12,categorical__emp_length_3 years,0.12555934
+13,categorical__sub_grade_G4,0.12441455
+14,categorical__sub_grade_B5,0.122941844
+15,categorical__purpose_moving,0.121005274
+16,numeric__loan_amnt,0.12060133
+17,categorical__sub_grade_E2,0.12032517
+18,categorical__sub_grade_B4,0.11981484
+19,categorical__purpose_educational,0.113640234
+20,numeric__revol_bal,0.11114368
+21,categorical__sub_grade_G5,0.10710563
+22,categorical__purpose_other,0.10308027
+23,categorical__purpose_medical,0.1009206
+24,categorical__sub_grade_B3,0.098193735
+25,categorical__sub_grade_B2,0.09655049
+26,categorical__sub_grade_G3,0.09575119
+27,categorical__sub_grade_A2,0.095173836
+28,categorical__emp_length_10+ years,0.09354897
+29,numeric__dti,0.09009888
+30,categorical__sub_grade_E4,0.08714583
+31,numeric__installment,0.074663125
+32,categorical__sub_grade_A3,0.07373097
+33,categorical__sub_grade_E1,0.07102816
+34,categorical__verification_status_Verified,0.07006861
+35,categorical__sub_grade_B1,0.06835337
+36,categorical__sub_grade_C4,0.06748203
+37,categorical__purpose_house,0.06740536
+38,categorical__sub_grade_D1,0.062209785
+39,categorical__sub_grade_C1,0.05830302
+40,categorical__sub_grade_D2,0.05774362
+41,categorical__emp_length_< 1 year,0.056018017
+42,categorical__sub_grade_E3,0.054960314
+43,numeric__pub_rec_bankruptcies,0.0546947
+44,categorical__sub_grade_G2,0.054252002
+45,categorical__sub_grade_F4,0.053317476
+46,numeric__earliest_cr_year,0.051129438
+47,categorical__sub_grade_E5,0.04954718
+48,categorical__term_ 36 months,0.04924905
+49,categorical__home_ownership_RENT,0.048338518
+50,categorical__sub_grade_C5,0.047868714
+51,numeric__total_acc,0.04670063
+52,numeric__mort_acc,0.04357009
+53,categorical__purpose_car,0.04334615
+54,categorical__home_ownership_MORTGAGE,0.04231869
+55,categorical__purpose_credit_card,0.040650014
+56,categorical__sub_grade_G1,0.03953956
+57,categorical__sub_grade_C2,0.03682031
+58,categorical__verification_status_Not Verified,0.035460424
+59,categorical__sub_grade_D4,0.03388532
+60,categorical__sub_grade_D5,0.033074744
+61,categorical__sub_grade_A4,0.03249336
+62,categorical__purpose_vacation,0.02952393
+63,categorical__initial_list_status_f,0.029258016
+64,categorical__emp_length_4 years,0.027389279
+65,categorical__verification_status_Source Verified,0.024779145
+66,categorical__purpose_debt_consolidation,0.022509541
+67,categorical__sub_grade_D3,0.022377491
+68,categorical__emp_length_9 years,0.022192756
+69,categorical__sub_grade_A5,0.020871438
+70,categorical__purpose_major_purchase,0.017346585
+71,categorical__sub_grade_F1,0.016684128
+72,categorical__sub_grade_C3,0.015672741
+73,categorical__purpose_home_improvement,0.015391715
+74,categorical__emp_length_8 years,0.011485402
+75,categorical__home_ownership_OWN,0.011293313
+76,categorical__emp_length_6 years,0.011160275
+77,categorical__sub_grade_F2,0.00813569
+78,categorical__sub_grade_F3,0.0074544577
+79,categorical__emp_length_2 years,0.007136689
+80,categorical__emp_length_1 year,0.006440209
+81,categorical__term_ 60 months,0.005920144
+82,categorical__emp_length_5 years,0.005077722
+83,categorical__emp_length_7 years,0.0024865684
+84,categorical__application_type_INDIVIDUAL,0.00016901533
+85,categorical__initial_list_status_w,7.9529964e-05
+86,categorical__home_ownership_OTHER,0.0
+87,categorical__home_ownership_infrequent_sklearn,0.0
+88,categorical__application_type_DIRECT_PAY,0.0

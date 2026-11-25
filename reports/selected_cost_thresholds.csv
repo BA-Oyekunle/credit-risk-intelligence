@@ -1,0 +1,3 @@
+scenario,false_positive_cost_usd,lgd_rate,selected_threshold,threshold_set_total_cost_usd,threshold_set_cost_per_loan_usd,missed_default_exposure_usd,estimated_missed_default_loss_usd,false_positive_count,false_negative_count
+one,240.0,0.4,0.05,8937710.0,188.06729231546166,1659875.0,663950.0,34474.0,126.0
+two,50000.0,0.24,0.74,33647112.0,708.0025250399798,140196300.0,33647112.0,0.0,9317.0

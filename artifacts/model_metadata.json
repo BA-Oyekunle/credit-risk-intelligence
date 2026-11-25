@@ -1,0 +1,31 @@
+{
+    "model": "xgboost",
+    "threshold": 0.5895107984542847,
+    "cv_pr_auc": 0.37772074264118666,
+    "target_positive_class": "Charged Off",
+    "numeric_features": [
+        "loan_amnt",
+        "int_rate",
+        "installment",
+        "annual_inc",
+        "dti",
+        "open_acc",
+        "pub_rec",
+        "revol_bal",
+        "revol_util",
+        "total_acc",
+        "mort_acc",
+        "pub_rec_bankruptcies",
+        "earliest_cr_year"
+    ],
+    "categorical_features": [
+        "term",
+        "sub_grade",
+        "emp_length",
+        "home_ownership",
+        "verification_status",
+        "purpose",
+        "initial_list_status",
+        "application_type"
+    ]
+}

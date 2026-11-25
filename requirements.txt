@@ -1,0 +1,26 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+scipy
+statsmodels
+jupyter
+ipykernel
+pyarrow
+pytest
+pandera
+python-dotenv
+shap
+joblib
+
+# API
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+
+# Machine Learning
+xgboost==3.4.1
+
+# PostgreSQL
+SQLAlchemy==2.1.9
+psycopg[binary]==3.3.9

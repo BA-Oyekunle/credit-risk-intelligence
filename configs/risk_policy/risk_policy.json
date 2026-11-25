@@ -1,0 +1,56 @@
+{
+    "project_name": "Credit Risk Intelligence",
+    "currency": "USD",
+    "risk_score": {
+        "minimum": 0,
+        "maximum": 100,
+        "formula": "100 * (1 - probability_of_default)"
+    },
+    "risk_grades": [
+        {
+            "grade": "A",
+            "minimum_score": 90,
+            "maximum_score": 100,
+            "description": "Lowest predicted default risk"
+        },
+        {
+            "grade": "B",
+            "minimum_score": 80,
+            "maximum_score": 89.99,
+            "description": "Low predicted default risk"
+        },
+        {
+            "grade": "C",
+            "minimum_score": 70,
+            "maximum_score": 79.99,
+            "description": "Moderate predicted default risk"
+        },
+        {
+            "grade": "D",
+            "minimum_score": 60,
+            "maximum_score": 69.99,
+            "description": "Elevated predicted default risk"
+        },
+        {
+            "grade": "E",
+            "minimum_score": 0,
+            "maximum_score": 59.99,
+            "description": "High predicted default risk"
+        }
+    ],
+    "decision_policy": {
+        "reference_threshold": 0.117632,
+        "threshold_source": "Milestone 10.1 held-out test validation",
+        "threshold_interpretation": "Recall-oriented F2 reference threshold",
+        "default_recommendation": "MANUAL_REVIEW",
+        "automatic_approval_enabled": false,
+        "automatic_rejection_enabled": false
+    },
+    "expected_loss": {
+        "method": "PD * EAD * LGD",
+        "exposure_proxy": "loan_amnt",
+        "exposure_proxy_warning": "Original loan amount is not actual outstanding exposure at default.",
+        "lgd_required": true,
+        "lgd_source": "User supplied"
+    }
+}

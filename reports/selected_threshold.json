@@ -1,0 +1,8 @@
+{
+    "threshold": 0.11763190478086472,
+    "precision": 0.25850253402607337,
+    "recall": 0.8700783177770626,
+    "f2_score": 0.5906171257118721,
+    "selection_metric": "F2-score",
+    "beta": 2
+}
